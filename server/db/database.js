@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
 
-const db = new Sequelize('postgres://localhost/portfolioDB');
+const db = new Sequelize(process.env.DATABASE_URL || 'postgres://localhost/portfolioDB');
 
 module.exports = db;
