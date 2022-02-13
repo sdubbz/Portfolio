@@ -18,6 +18,20 @@ export const Home = () => {
     <a href="">Contact Us</a>
   </div>
 </nav>
+
+<header class="flex justify-between items-center mt-28">
+        <div class="pl-20 w-3/5 animate__animated animate__jackInTheBox">
+            <h1 class="text-4xl">Welcome to <span class="text-green-600 font-bold">Awesome CSS</span> website</h1>
+            <p class="mt-4">
+                With just HTML and CSS you can created magical websites. There are so many things in CSS to do, that it takes a lifetime to master. There are many CSS gurus and they share their work with everyone. Two of them are Sara Soueidan and Dev Ed.
+            </p>
+            <button class="bg-green-600 px-2 py-2 text-white rounded">Subscribe</button>
+            <button class="bg-gray-300 px-2 py-2 mt-4 ml-4 rounded">Connect with us!</button>
+        </div>
+        <div class="w-2/5 animate__animated animate__fadeIn animate__delay-1s">
+
+        </div>
+    </header>
       <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
