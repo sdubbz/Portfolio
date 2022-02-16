@@ -4,7 +4,7 @@ import React from 'react';
 export const Home = () => {
 
   return(
-    <div>
+    <div  >
 
       <nav class="container flex justify-around py-8 mx-auto bg-white">
   <div>
