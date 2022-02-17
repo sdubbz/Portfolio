@@ -11,7 +11,7 @@ export const App = () => {
   return (
 
     <div >
-      <Nav/>
+      {/* <Nav/> */}
       <Routes>
         <Route path="/home" element={<Home/>}/>
       {/* <Route path="/" element={<Nav/>}/> */}
