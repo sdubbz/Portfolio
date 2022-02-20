@@ -51,6 +51,10 @@
   width: 100%;
 }
 
+.resize{
+  resize: both;
+}
+
 .items-center{
   align-items: center;
 }
@@ -63,6 +67,10 @@
   --tw-space-x-reverse: 0;
   margin-right: calc(3rem * var(--tw-space-x-reverse));
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.border{
+  border-width: 1px;
 }
 
 .bg-white{
