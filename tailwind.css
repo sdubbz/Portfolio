@@ -14,3 +14,27 @@
 a:link{
   color:blue
 }
+
+
+
+.nav{
+  position:absolute;
+  opacity: 0.1;
+  /* background: transparent; */
+
+}
+
+.layout{
+  /* opacity: 0.1; */
+  position:absolute;
+  width:100%;
+  height:100px;
+  /* background: transparent; */
+
+  background: rgba(204, 204, 204, 0);
+}
+.canvas {
+  position:absolute;
+  height:100%; width:100%;
+}
+

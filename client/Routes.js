@@ -14,8 +14,14 @@ export const App = () => {
 
     <div >
       {/* <Particlez/> */}
-      <Canvas/>
-      <Nav/>
+
+      <Canvas className='canvas'/>
+      <div className="layout">
+         <Nav className="nav"/>
+      </div>
+
+      {/* <Nav className="nav"/> */}
+      {/* <Canvas/> */}
       <Routes>
         <Route path="/home" element={<Home/>}/>
       {/* <Route path="/" element={<Nav/>}/> */}
