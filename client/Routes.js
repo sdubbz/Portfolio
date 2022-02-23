@@ -3,6 +3,7 @@ import {Routes, Route} from "react-router-dom";
 import Home from './components/Home';
 import Nav from './components/Nav';
 import Particlez from "./components/particles";
+import Canvas from "./components/canvas";
 
 
 
@@ -13,6 +14,7 @@ export const App = () => {
 
     <div >
       {/* <Particlez/> */}
+      <Canvas/>
       <Nav/>
       <Routes>
         <Route path="/home" element={<Home/>}/>
