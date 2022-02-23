@@ -5,7 +5,7 @@ import React, {useEffect, useRef} from "react";
 const Canvas = props => {
 
 let speed = 20;
-let scale = 0.17; // Image scale (I work on 1080p monitor)
+let scale = 0.50; // Image scale (I work on 1080p monitor)
 
 let ctx;
 let logoColor;
@@ -19,6 +19,15 @@ let dvd = {
 
 };
 
+let hire = {
+  x: 200,
+  y: 300,
+  xspeed: 5,
+  yspeed: 5,
+
+
+};
+
 
 const canvasRef = useRef(null)
 
@@ -29,7 +38,7 @@ useEffect(() => {
 
    let canvas = canvasRef.current;
     ctx = canvas.getContext("2d");
-    dvd.img.src = './images/mobileMenu.png';
+    dvd.img.src = './images/hireMe.png';
 
     //Draw the "tv screen"
     canvas.width  = window.innerWidth;
@@ -50,6 +59,9 @@ function update() {
         //Move the logo
         dvd.x+=dvd.xspeed;
         dvd.y+=dvd.yspeed;
+        ctx.font      = "normal 36px Verdana";
+ctx.fillStyle = "#ffffff";
+ctx.fillText(hire, 50, 50);
         //Check for collision
         checkHitBox();
         update();
