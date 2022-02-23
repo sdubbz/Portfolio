@@ -61,7 +61,7 @@ function update() {
         dvd.y+=dvd.yspeed;
         ctx.font      = "normal 36px Verdana";
 ctx.fillStyle = "#ffffff";
-ctx.fillText(hire, 50, 50);
+ctx.fillText(hire, 200, 200);
         //Check for collision
         checkHitBox();
         update();
