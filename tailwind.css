@@ -12,7 +12,8 @@
 }
 
 a:link{
-  color:blue
+  color:blue;
+  text-decoration: none;
 }
 
 
