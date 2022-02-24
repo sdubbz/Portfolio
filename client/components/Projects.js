@@ -1,10 +1,14 @@
 import React from 'react';
+import ProjectsComp from './ProjectsComp';
 
 export const Projects = () => {
 
 
   return(
-    <div className='bottom'>YOOOOOO</div>
+    <div >
+      fuckyou
+   {/* <ProjectsComp/> */}
+    </div>
   )
 
 }

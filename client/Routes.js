@@ -12,7 +12,7 @@ export const App = () => {
 
 
       {/* <Canvas className="canvas" /> */}
-      <div className="layout">
+      <div >
         <Nav className="nav" />
 
       </div>

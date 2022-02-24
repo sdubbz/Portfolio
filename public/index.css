@@ -155,12 +155,21 @@ a:link{
 }
 
 .bottom {
-  height:500px;
+  /* height:500px;
   padding-left: 200px;
-  background-color: #fff;
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl'); */
+  margin-top: 500px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 7.5%;
 }
 
 @media (min-width: 768px){
