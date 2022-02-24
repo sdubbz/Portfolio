@@ -162,7 +162,7 @@ a:link{
     border-radius: theme('borderRadius.lg');
     padding: theme('spacing.6');
     box-shadow: theme('boxShadow.xl'); */
-  margin-top: 500px;
+  /* margin-top:32px; */
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -170,6 +170,18 @@ a:link{
   align-items: center;
   background-color: aliceblue;
   padding: 7.5%;
+}
+
+.projects{
+  margin-top: 250px;
+}
+
+/* .projectsText{
+
+} */
+
+.weird{
+  color:white;
 }
 
 @media (min-width: 768px){

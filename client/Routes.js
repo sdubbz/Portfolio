@@ -12,10 +12,10 @@ export const App = () => {
 
 
       {/* <Canvas className="canvas" /> */}
-      <div >
+      {/* <div className="layout">
         <Nav className="nav" />
 
-      </div>
+      </div> */}
 
       {/* <Nav className="nav"/> */}
       {/* <Canvas/> */}
@@ -29,7 +29,7 @@ export const App = () => {
 
       </div></div>}/>
         <Route path="/home" element={<Home />} />
-        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/projects" element={<Projects classname="projects"/>}/>
       </Routes>
     </div>
   );
