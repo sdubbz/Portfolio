@@ -39,3 +39,13 @@ a:link{
   height:100%; width:100%;
 }
 
+.bottom {
+  height:500px;
+  padding-left: 200px;
+
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+
+}

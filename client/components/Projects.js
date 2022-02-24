@@ -4,7 +4,7 @@ export const Projects = () => {
 
 
   return(
-    <div>YOOOOOO</div>
+    <div className='bottom'>YOOOOOO</div>
   )
 
 }
