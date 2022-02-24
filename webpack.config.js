@@ -1,5 +1,5 @@
 module.exports = {
-  entry: [
+  entry: ['babel-polyfill',
     './client/index.js'
   ],
   output: {

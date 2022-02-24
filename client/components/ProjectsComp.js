@@ -1,6 +1,12 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import axios from "axios";
 
 export const ProjectsComp = () => {
+
+useEffect( async () => {
+  const projectsResponse = await axios.get('/api/projects');
+  console.log(projectsResponse)
+})
 
 
   return(
