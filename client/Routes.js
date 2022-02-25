@@ -5,20 +5,12 @@ import Nav from "./components/Nav";
 import Particlez from "./components/particles";
 import Canvas from "./components/canvas";
 import Projects from "./components/Projects";
+import Email from "./components/Email";
 
 export const App = () => {
   return (
     <div>
 
-
-      {/* <Canvas className="canvas" /> */}
-      {/* <div className="layout">
-        <Nav className="nav" />
-
-      </div> */}
-
-      {/* <Nav className="nav"/> */}
-      {/* <Canvas/> */}
       <Routes>
 
         <Route path="/" element={
@@ -30,6 +22,7 @@ export const App = () => {
       </div></div>}/>
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<Projects classname="projects"/>}/>
+        <Route path='email' element={<Email/>}/>
       </Routes>
     </div>
   );

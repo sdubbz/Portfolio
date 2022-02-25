@@ -13,21 +13,13 @@ useEffect( () => {
     setLoading(false);
   }
   getResults();
-  // const projectsResponse = await axios.get('/api/projects');
-  // console.log(projectsResponse)
 
-  // setProjects(projectsResponse)
 
 },[]);
 
   console.log(projects, 'YOOOOO FUCKERES')
 
-  // const mappedProjects = projects.map(project => {
-  //   return (
-  //     <div>project[0].name</div>
-  //   )
-  // })
-  // console.log(mappedProjects)
+
 if(!isLoading){
   console.log(projects, 'hellllooo')
 
@@ -36,7 +28,7 @@ if(!isLoading){
     <div >{projects.map((project) => {
       return (project.name)
     })}</div>
-    {/* mappedProjects */}
+
 
     </div>
   )
