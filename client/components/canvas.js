@@ -35,6 +35,16 @@ const Canvas = (props) => {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
+    var background = new Image();
+background.src = "/images/pinball.jpeg";
+
+// Make sure the image is loaded first otherwise nothing will draw.
+background.onload = function(){
+    ctx.drawImage(background,0,0);
+}
+
+
+
     function update() {
       setTimeout(() => {
         //Draw the canvas background
