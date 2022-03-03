@@ -7,6 +7,9 @@ const Canvas = (props) => {
   let ctx;
   let logoColor;
 
+  var background = new Image();
+  background.src = "/images/pinball.jpeg";
+
   // let dvd = {
   //   x: 200,
   //   y: 300,
@@ -26,6 +29,9 @@ const Canvas = (props) => {
 
   const canvasRef = useRef(null);
 
+
+
+
   useEffect(() => {
     let canvas = canvasRef.current;
     ctx = canvas.getContext("2d");
@@ -35,13 +41,11 @@ const Canvas = (props) => {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    var background = new Image();
-background.src = "/images/pinball.jpeg";
 
 // Make sure the image is loaded first otherwise nothing will draw.
-background.onload = function(){
-    ctx.drawImage(background,0,0);
-}
+// background.onload = function(){
+//     ctx.drawImage(background,0,0);
+// }
 
 
 
@@ -49,8 +53,16 @@ background.onload = function(){
       setTimeout(() => {
         //Draw the canvas background
 
+
         ctx.fillStyle = "#000";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+// Make sure the image is loaded first otherwise nothing will draw.
+
+
+
+
+
         //Draw DVD Logo and his background
         // ctx.fillStyle = logoColor;
         // ctx.fillRect(dvd.x, dvd.y, dvd.img.width*scale, dvd.img.height*scale);
@@ -70,9 +82,21 @@ background.onload = function(){
           // requestAnimationFrame(animate);
           // ctx.clearRect(0, 0, innerWidth, innerHeight);
 
+
+//     var background = new Image();
+// background.src = "/images/pinball.jpeg";
+
+// // Make sure the image is loaded first otherwise nothing will draw.
+// background.onload = function(){
+//     ctx.drawImage(background,0,0);
+// }
+
+
           ctx.font = "bold 30px Helvetica";
           ctx.fillStyle = logoColor;
           ctx.fillText(hire.text, hire.x, hire.y);
+
+
 
           if (hire.x + width > innerWidth || hire.x <= 0) {
             hire.xspeed = -hire.xspeed;
@@ -89,6 +113,7 @@ background.onload = function(){
         animate();
         // checkHitBoxx()
         // checkHitBox();
+        // background.onload()
         update();
       }, speed);
     }
