@@ -54,7 +54,7 @@ const Canvas = (props) => {
         //Draw the canvas background
 
 
-        ctx.fillStyle = "#000";
+        ctx.fillStyle = "#ffffff";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 // Make sure the image is loaded first otherwise nothing will draw.

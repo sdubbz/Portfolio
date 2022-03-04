@@ -7,6 +7,11 @@ const dummyProject = [
     imageUrl: "https://www.amny.com/wp-content/uploads/2018/08/image-23.jpeg",
     description: "Locate your nearest outdoor tennis court",
   },
+  {
+    name: 'test project',
+    imageUrl:'/images/pinball.jpeg',
+    description: "this is a project"
+  }
 
 ];
 

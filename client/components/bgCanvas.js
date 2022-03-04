@@ -54,7 +54,7 @@ const BgCanvas = (props) => {
       setTimeout(() => {
         //Draw the canvas background
 
-        ctx.fillStyle = "#000";
+        ctx.fillStyle = "#ffffff";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 

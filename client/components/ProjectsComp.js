@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
 
+
 export const ProjectsComp = () => {
   const [projects, setProjects] = useState([]);
   const [isLoading, setLoading] = useState(true);
@@ -13,7 +14,10 @@ useEffect( () => {
     setLoading(false);
   }
   getResults();
+  // const projectsResponse = await axios.get('/api/projects');
+  // console.log(projectsResponse)
 
+  // setProjects(projectsResponse)
 
 },[]);
 
@@ -25,9 +29,12 @@ if(!isLoading){
 
   return(
     <div className='bottom'>
-    <div >{projects.map((project) => {
-      return (project.name)
-    })}</div>
+    {projects.map((project) => {
+      return (<div>
+        <div>{project.name}</div>
+        <img src="images/pinball.jpeg"/>
+         </div>)
+    })}
 
 
     </div>
