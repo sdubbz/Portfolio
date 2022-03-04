@@ -30,10 +30,12 @@ if(!isLoading){
   return(
     <div className='bottom'>
     {projects.map((project) => {
-      return (<div>
+      return (<div key={project.id} >
         <div>{project.name}</div>
         <img src="images/pinball.jpeg"/>
-         </div>)
+        <p>{project.description}</p>
+         </div>
+         )
     })}
 
 
