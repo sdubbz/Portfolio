@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 // import mobileMenu from '../../public/images/mobileMenu.png'
 
 const Canvas = (props) => {
-  let speed = 20;
+  let speed = 30;
 
   let ctx;
   let logoColor;
@@ -19,7 +19,7 @@ const Canvas = (props) => {
   // };
 
   let hire = {
-    text: "Hire me!",
+    text: "Dubbs Designs",
     x: 200,
     y: 300,
     xspeed: 5,
@@ -92,7 +92,7 @@ const Canvas = (props) => {
 // }
 
 
-          ctx.font = "bold 30px Helvetica";
+          ctx.font = "bold 40px Helvetica";
           ctx.fillStyle = logoColor;
           ctx.fillText(hire.text, hire.x, hire.y);
 
