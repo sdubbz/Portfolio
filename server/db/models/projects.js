@@ -5,10 +5,11 @@ const Projects = db.define("project", {
   name: {
     type: Sequelize.STRING
   },
-  imageUrl:{
-    type:Sequelize.TEXT,
+  imageUrl: {
+      type:   Sequelize.ARRAY(Sequelize.TEXT)
 
-  },
+    },
+
   description:{
     type:Sequelize.TEXT
   }

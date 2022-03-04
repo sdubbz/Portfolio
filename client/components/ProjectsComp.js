@@ -32,7 +32,8 @@ if(!isLoading){
     {projects.map((project) => {
       return (<div key={project.id} >
         <div>{project.name}</div>
-        <img src="images/pinball.jpeg"/>
+        <img className='project-image' src={project.imageUrl[0]}/>
+        <img className='project-image' src={project.imageUrl[1]}/>
         <p>{project.description}</p>
          </div>
          )

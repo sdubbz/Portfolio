@@ -4,12 +4,19 @@ const Projects = require("./models/projects")
 const dummyProject = [
   {
     name: "NYC Public Tennis Courts",
-    imageUrl: "https://www.amny.com/wp-content/uploads/2018/08/image-23.jpeg",
+    imageUrl: ["/images/allTags.png", "images/death&Company.png"],
+
     description: "Locate your nearest outdoor tennis court",
   },
   {
     name: 'test project',
-    imageUrl:'/images/pinball.jpeg',
+    imageUrl:['/images/pinball.jpeg'],
+
+    description: "this is a project"
+  },
+  {
+    name: 'test project',
+    imageUrl:['/images/nightLife.png'],
     description: "this is a project"
   }
 
