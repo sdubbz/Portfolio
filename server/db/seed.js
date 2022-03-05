@@ -6,7 +6,7 @@ const dummyProject = [
     name: "NYC Public Tennis Courts",
     imageUrl: ["/images/allTags.png", "images/death&Company.png"],
 
-    description: "Locate your nearest outdoor tennis court",
+    // description: "Locate your nearest outdoor tennis court",
   },
   {
     name: 'test project',
