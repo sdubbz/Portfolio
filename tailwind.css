@@ -51,6 +51,9 @@ canvas {
 
 
 }
+.bgPic{
+  position: absolute;
+}
 
 .bottom {
   /* height:500px;

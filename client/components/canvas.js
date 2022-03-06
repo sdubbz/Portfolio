@@ -54,9 +54,10 @@ const Canvas = (props) => {
         //Draw the canvas background
 
 
-        ctx.fillStyle = "#ffffff";
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
+         ctx.fillStyle = "#00ffffff";
+         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
+         ctx.clearRect(0,0,canvas.width,canvas.height);
 // Make sure the image is loaded first otherwise nothing will draw.
 
 
@@ -144,6 +145,9 @@ const Canvas = (props) => {
     update();
   }, []);
 
-  return <canvas ref={canvasRef} {...props} />;
+  return <div>
+    <img className="bgPic" src="images/pinball.jpeg"/>
+    <canvas ref={canvasRef} {...props} />
+    </div>
 };
 export default Canvas;

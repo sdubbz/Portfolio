@@ -166,6 +166,10 @@ canvas {
   opacity:0.5;
 }
 
+.bgPic{
+  position: absolute;
+}
+
 .bottom {
   /* height:500px;
   padding-left: 200px;

@@ -17,7 +17,7 @@ export const App = () => {
         <Route path="/" element={
           <div>
           <Canvas className="canvas" />
-          <BgCanvas className="bgCanvas" />
+          {/* <BgCanvas className="bgCanvas" /> */}
           <div className="layout">
         <Nav className="nav" />
              {/* <BgCanvas className="bgCanvas" /> */}
