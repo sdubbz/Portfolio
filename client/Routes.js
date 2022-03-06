@@ -16,6 +16,7 @@ export const App = () => {
 
         <Route path="/" element={
           <div>
+            <img className="bgPic" src="images/cocktailsDreams.jpeg"/>
           <Canvas className="canvas" />
           {/* <BgCanvas className="bgCanvas" /> */}
           <div className="layout">

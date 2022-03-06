@@ -7,8 +7,8 @@ const Canvas = (props) => {
   let ctx;
   let logoColor;
 
-  var background = new Image();
-  background.src = "/images/pinball.jpeg";
+  // var background = new Image();
+  // background.src = "/images/pinball.jpeg";
 
   // let dvd = {
   //   x: 200,
@@ -146,7 +146,7 @@ const Canvas = (props) => {
   }, []);
 
   return <div>
-    <img className="bgPic" src="images/pinball.jpeg"/>
+
     <canvas ref={canvasRef} {...props} />
     </div>
 };
