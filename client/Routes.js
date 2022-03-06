@@ -7,6 +7,7 @@ import Canvas from "./components/canvas";
 import Projects from "./components/Projects";
 import Email from "./components/Email";
 import BgCanvas from "./components/bgCanvas";
+import HomeAbout from "./components/homeAbout";
 
 export const App = () => {
   return (
@@ -21,6 +22,7 @@ export const App = () => {
           {/* <BgCanvas className="bgCanvas" /> */}
           <div className="layout">
         <Nav className="nav" />
+          <HomeAbout />
              {/* <BgCanvas className="bgCanvas" /> */}
       </div></div>}/>
         <Route path="/home" element={<Home />} />
