@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 // import mobileMenu from '../../public/images/mobileMenu.png'
 
 const Canvas = (props) => {
-  let speed = 30;
+  let speed = 40;
 
   let ctx;
   let logoColor;

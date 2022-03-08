@@ -83,6 +83,8 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
 
+
+
 }
 
 .bottom {
@@ -114,4 +116,20 @@ canvas {
 
 .weird{
   color:white;
+}
+
+.homeAbout{
+  margin-left: 700px;
+  margin-top: 250px;
+  /* color:white; */
+width: 500px;
+  bottom: 20px;
+  right: 20px;
+  /* background-color: black; */
+  /* color: white; */
+  padding-left: 20px;
+  padding-right: 20px;
+
+  /* background: rgba(0, 0, 0, 0.5); */
+
 }

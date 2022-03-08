@@ -16,15 +16,20 @@ export const App = () => {
       <Routes>
 
         <Route path="/" element={
+          // <div>
+          // <img className="bgPic" src="images/cocktailsDreams.jpeg"/>
+          //  <Canvas className="canvas" />
+          //  </div>
           <div>
             <img className="bgPic" src="images/cocktailsDreams.jpeg"/>
           <Canvas className="canvas" />
           {/* <BgCanvas className="bgCanvas" /> */}
           <div className="layout">
         <Nav className="nav" />
-          <HomeAbout />
+          <HomeAbout classname="homeAbout"/>
              {/* <BgCanvas className="bgCanvas" /> */}
       </div></div>}/>
+        {/* }/> */}
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<Projects classname="projects"/>}/>
         <Route path='email' element={<Email/>}/>
