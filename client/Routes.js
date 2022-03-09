@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Email from "./components/Email";
 import BgCanvas from "./components/bgCanvas";
 import HomeAbout from "./components/homeAbout";
+import LandingButton from "./components/landingButton";
 
 export const App = () => {
   return (
@@ -21,12 +22,12 @@ export const App = () => {
           //  <Canvas className="canvas" />
           //  </div>
           <div>
-            <img className="bgPic" src="images/cocktailsDreams.jpeg"/>
+            {/* <img className="bgPic" src="images/cocktailsDreams.jpeg"/> */}
           <Canvas className="canvas" />
           {/* <BgCanvas className="bgCanvas" /> */}
           <div className="layout">
-        <Nav className="nav" />
-          <HomeAbout classname="homeAbout"/>
+        {/* <Nav className="nav" /> */}
+          <LandingButton />
              {/* <BgCanvas className="bgCanvas" /> */}
       </div></div>}/>
         {/* }/> */}

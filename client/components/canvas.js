@@ -19,7 +19,7 @@ const Canvas = (props) => {
   // };
 
   let hire = {
-    text: "Dubbs Designs",
+    text: "Happy Hour",
     x: 200,
     y: 300,
     xspeed: 5,
@@ -93,7 +93,7 @@ const Canvas = (props) => {
 // }
 
 
-          ctx.font = "bold 40px Helvetica";
+          ctx.font = "bold 40px Cursive";
           ctx.fillStyle = logoColor;
           ctx.fillText(hire.text, hire.x, hire.y);
 
@@ -148,6 +148,7 @@ const Canvas = (props) => {
   return <div>
 
     <canvas ref={canvasRef} {...props} />
+    {/* <img src="images/espresso.jpeg"/> */}
     </div>
 };
 export default Canvas;
