@@ -22,7 +22,7 @@ export const App = () => {
           //  <Canvas className="canvas" />
           //  </div>
           <div>
-            {/* <img className="bgPic" src="images/cocktailsDreams.jpeg"/> */}
+            <img className="bgPic" src="images/cocktailsDreams.jpeg"/>
           <Canvas className="canvas" />
           {/* <BgCanvas className="bgCanvas" /> */}
           <div className="layout">

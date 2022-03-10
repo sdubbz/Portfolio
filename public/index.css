@@ -46,6 +46,10 @@
   right: 0px;
 }
 
+.m-2{
+  margin: 0.5rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -57,6 +61,10 @@
 
 .hidden{
   display: none;
+}
+
+.h-12{
+  height: 3rem;
 }
 
 .w-full{
@@ -81,6 +89,10 @@
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
 .border{
   border-width: 1px;
 }
@@ -92,6 +104,11 @@
 .bg-theme{
   --tw-bg-opacity: 1;
   background-color: rgb(63 63 255 / var(--tw-bg-opacity));
+}
+
+.bg-indigo-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(67 56 202 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r{
@@ -137,6 +154,11 @@
   line-height: 2.5rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -160,6 +182,11 @@
   color: transparent;
 }
 
+.text-indigo-100{
+  --tw-text-opacity: 1;
+  color: rgb(224 231 255 / var(--tw-text-opacity));
+}
+
 .shadow-2xl{
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -179,6 +206,18 @@
   transition-duration: 150ms;
 }
 
+.transition-colors{
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-150{
+  transition-duration: 150ms;
+}
+
 html,body
 {
   width: 100%;
@@ -186,6 +225,11 @@ html,body
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+}
+
+.landingButton{
+  margin-left: 900px;
+  margin-top: 750px;
 }
 
 .mobileMenu{
@@ -292,6 +336,20 @@ canvas {
   padding-left: 20px;
   padding-right: 20px;
   /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.hover\:border-solid:hover{
+  border-style: solid;
+}
+
+.hover\:border-black:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.hover\:bg-indigo-800:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 48 163 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 768px){
