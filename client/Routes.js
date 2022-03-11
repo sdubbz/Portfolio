@@ -13,27 +13,36 @@ import LandingButton from "./components/landingButton";
 export const App = () => {
   return (
     <div>
-
       <Routes>
+        <Route
+          path="/"
+          element={
+            <div>
+              <img className="bgPic" src="images/cocktailsDreams.jpeg" />
+              <Canvas className="canvas" />
 
-        <Route path="/" element={
-          // <div>
-          // <img className="bgPic" src="images/cocktailsDreams.jpeg"/>
-          //  <Canvas className="canvas" />
-          //  </div>
-          <div>
-            <img className="bgPic" src="images/cocktailsDreams.jpeg"/>
-          <Canvas className="canvas" />
-          {/* <BgCanvas className="bgCanvas" /> */}
-          <div className="layout">
-        {/* <Nav className="nav" /> */}
-          <LandingButton />
-             {/* <BgCanvas className="bgCanvas" /> */}
-      </div></div>}/>
-        {/* }/> */}
-        <Route path="/home" element={<Home />} />
-        <Route path="/projects" element={<Projects classname="projects"/>}/>
-        <Route path='email' element={<Email/>}/>
+              <div className="layout">
+                <LandingButton />
+              </div>
+            </div>
+          }
+        />
+
+        <Route
+          path="/home"
+          element={
+            <div>
+              <img className="bgPic" src="images/espresso.jpeg" />
+              <div className="layout">
+                {/* <Nav className="nav" /> */}
+                <Home />
+                {/* <BgCanvas className="bgCanvas" /> */}
+              </div>
+            </div>
+          }
+        />
+        <Route path="/projects" element={<Projects classname="projects" />} />
+        <Route path="email" element={<Email />} />
       </Routes>
     </div>
   );

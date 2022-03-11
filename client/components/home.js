@@ -5,6 +5,7 @@ export const Home = () => {
   return (
     <div>
       <Nav/>
+      {/* <img classname='homePic' src='/images/espresso.jpeg'/> */}
     </div>
   );
 };
