@@ -12,6 +12,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+  display: flex;
 }
 
 .landingButton{
@@ -139,26 +140,6 @@ width: 500px;
 
 }
 
-.homePic{
-  /* position: absolute; */
-  /* height: 100%; */
- /* width:  100%;
- /* image-rendering: -webkit-optimize-contrast; */
- /* image-rendering: pixelated; */
- /* image-rendering: -webkit-optimize-contrast; */
-
-
-   /* The image used */
-   /* background-image: url("img_girl.jpg"); */
-
-   /* Full height */
-   /* height: 100%; */
-   /* width:max-content; */
-
-   /* Center and scale the image nicely */
-   /* background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover; */
-
-
+.homeDiv{
+  width: 100%;
 }

@@ -215,6 +215,7 @@ html,body
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  display: flex;
 }
 
 .landingButton{
@@ -328,22 +329,8 @@ canvas {
   /* background: rgba(0, 0, 0, 0.5); */
 }
 
-.homePic{
-  /* position: absolute; */
-  /* height: 100%; */
-  /* width:  100%;
- /* image-rendering: -webkit-optimize-contrast; */
-  /* image-rendering: pixelated; */
-  /* image-rendering: -webkit-optimize-contrast; */
-  /* The image used */
-  /* background-image: url("img_girl.jpg"); */
-  /* Full height */
-  /* height: 100%; */
-  /* width:max-content; */
-  /* Center and scale the image nicely */
-  /* background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover; */
+.homeDiv{
+  width: 100%;
 }
 
 .hover\:border-black:hover{
@@ -375,5 +362,17 @@ canvas {
   .lg\:px-24{
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .xl\:px-64{
+    padding-left: 16rem;
+    padding-right: 16rem;
   }
 }

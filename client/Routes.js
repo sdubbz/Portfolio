@@ -10,6 +10,7 @@ import BgCanvas from "./components/bgCanvas";
 import HomeAbout from "./components/homeAbout";
 import LandingButton from "./components/landingButton";
 
+
 export const App = () => {
   return (
     <div>
@@ -31,14 +32,14 @@ export const App = () => {
         <Route
           path="/home"
           element={
-            <div>
-              <img className="bgPic" src="images/espresso.jpeg" />
-              <div className="layout">
-                {/* <Nav className="nav" /> */}
-                <Home />
-                {/* <BgCanvas className="bgCanvas" /> */}
-              </div>
-            </div>
+            // <div >
+            //   {/* <img className="bgPic" src="images/espresso.jpeg" /> */}
+            //   <div className="layout">
+            //     {/* <Nav className="nav" /> */}
+                <Home/>
+            //     {/* <BgCanvas className="bgCanvas" /> */}
+            //   </div>
+            // </div>
           }
         />
         <Route path="/projects" element={<Projects classname="projects" />} />

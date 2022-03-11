@@ -3,9 +3,9 @@ import Nav from './Nav';
 
 export const Home = () => {
   return (
-    <div>
+    <div >
       <Nav/>
-      {/* <img classname='homePic' src='/images/espresso.jpeg'/> */}
+      <img classname='homeDiv' src='/images/pinball.jpeg'/>
     </div>
   );
 };
