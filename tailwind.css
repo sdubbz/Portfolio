@@ -16,8 +16,10 @@ html,body
 }
 
 .landingButton{
-  margin-left: 900px;
-  margin-top: 750px;
+  /* margin-left: 500%;
+  margin-top: 500%; */
+
+  position: relative;
 }
 
 .mobileMenu{

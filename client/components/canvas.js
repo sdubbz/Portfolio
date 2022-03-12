@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import LandingButton from "./landingButton";
 
 const Canvas = (props) => {
   let speed = 40;
@@ -71,8 +72,9 @@ const Canvas = (props) => {
   }, []);
 
   return (
-    <div>
-      <canvas ref={canvasRef} {...props} />
+    <div  >
+      <canvas  ref={canvasRef} {...props} />
+      <LandingButton />
       {/* <img src="images/espresso.jpeg"/> */}
     </div>
   );

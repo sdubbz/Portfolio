@@ -13,17 +13,17 @@ import LandingButton from "./components/landingButton";
 
 export const App = () => {
   return (
-    <div>
+    <div >
       <Routes>
         <Route
           path="/"
           element={
-            <div>
+            <div >
               <img className="bgPic" src="images/cocktailsDreams.jpeg" />
-              <Canvas className="canvas" />
+              <Canvas class="flex justify-center ..." />
 
-              <div className="layout">
-                <LandingButton />
+              <div  class="layout">
+                {/* <LandingButton /> */}
               </div>
             </div>
           }

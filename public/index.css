@@ -38,6 +38,15 @@
   position: absolute;
 }
 
+.relative{
+  position: relative;
+}
+
+.inset-x-0{
+  left: 0px;
+  right: 0px;
+}
+
 .bottom-0{
   bottom: 0px;
 }
@@ -67,8 +76,20 @@
   height: 3rem;
 }
 
+.h-32{
+  height: 8rem;
+}
+
+.h-16{
+  height: 4rem;
+}
+
 .w-full{
   width: 100%;
+}
+
+.w-32{
+  width: 8rem;
 }
 
 .resize{
@@ -77,6 +98,10 @@
 
 .items-center{
   align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .justify-around{
@@ -219,8 +244,9 @@ html,body
 }
 
 .landingButton{
-  margin-left: 900px;
-  margin-top: 750px;
+  /* margin-left: 500%;
+  margin-top: 500%; */
+  position: relative;
 }
 
 .mobileMenu{
@@ -366,11 +392,6 @@ canvas {
 }
 
 @media (min-width: 1280px){
-  .xl\:px-32{
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
   .xl\:px-64{
     padding-left: 16rem;
     padding-right: 16rem;
