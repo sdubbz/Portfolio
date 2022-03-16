@@ -10,38 +10,25 @@ import BgCanvas from "./components/bgCanvas";
 import HomeAbout from "./components/homeAbout";
 import LandingButton from "./components/landingButton";
 
-
 export const App = () => {
   return (
-    <div >
+    <div class="w-full">
       <Routes>
         <Route
           path="/"
           element={
-            <div >
+            <div>
               <img className="bgPic" src="images/cocktailsDreams.jpeg" />
               <Canvas class="flex justify-center ..." />
 
-              <div  class="layout">
+              <div class="layout">
                 <LandingButton />
               </div>
             </div>
           }
         />
 
-        <Route
-          path="/home"
-          element={
-            // <div >
-            //   {/* <img className="bgPic" src="images/espresso.jpeg" /> */}
-            //   <div className="layout">
-            //     {/* <Nav className="nav" /> */}
-                <Home/>
-            //     {/* <BgCanvas className="bgCanvas" /> */}
-            //   </div>
-            // </div>
-          }
-        />
+        <Route path="/home" element={<Home class="w-full"/>} />
         <Route path="/projects" element={<Projects classname="projects" />} />
         <Route path="email" element={<Email />} />
       </Routes>
