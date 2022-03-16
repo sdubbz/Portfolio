@@ -23,7 +23,7 @@ export const App = () => {
               <Canvas class="flex justify-center ..." />
 
               <div  class="layout">
-                {/* <LandingButton /> */}
+                <LandingButton />
               </div>
             </div>
           }

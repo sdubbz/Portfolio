@@ -74,7 +74,8 @@ const Canvas = (props) => {
   return (
     <div   >
       <canvas  ref={canvasRef} {...props} />
-      <LandingButton />
+
+      {/* <LandingButton class="w-full" /> */}
       {/* <img src="images/espresso.jpeg"/> */}
     </div>
   );
