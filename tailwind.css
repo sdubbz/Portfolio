@@ -85,25 +85,11 @@ canvas {
 
 }
 .bgPic{
-  position: absolute;
-   /* height: 100%; */
-  width:  100%;
-  /* image-rendering: -webkit-optimize-contrast; */
-  /* image-rendering: pixelated; */
-  /* image-rendering: -webkit-optimize-contrast; */
+width: 100%;
+    background: url(./images/espresso.jpeg);
 
-
-    /* The image used */
-    /* background-image: url("img_girl.jpg"); */
-
-    /* Full height */
-    height: 100%;
-    /* width:max-content; */
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 
 

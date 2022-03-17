@@ -1,13 +1,15 @@
 import React from "react";
 import Nav from './Nav';
 
+
+
 export const Home = () => {
   return (
-    <div class="w-full" >
-      <Nav/>
-      <img  src='/images/pinball.jpeg'/>
+    <div className="bgPic">
+      {/* <img class="w-full" src='/images/espresso.jpeg'/> */}
+      {/* <Nav /> */}
     </div>
   );
 };
 
-export default Home;
+// export default Home;
