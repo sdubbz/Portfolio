@@ -2,6 +2,10 @@ module.exports = {
   content: ["./client/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "spro": "url('/images/espresso.jpeg')",
+
+       },
       colors:{
         "body": "#17171F",
         "selected-text": "#A3A3FF",
