@@ -12,7 +12,7 @@ import LandingButton from "./components/landingButton";
 
 export const App = () => {
   return (
-    <div class="w-full h-full">
+    <div className="w-full h-full">
       <Routes>
         <Route
           path="/"

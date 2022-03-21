@@ -1,4 +1,4 @@
-@tailwind preflight;
+@tailwind base;
 
 @tailwind components;
 
@@ -86,7 +86,7 @@ canvas {
 }
 .bgPic{
 width: 100%;
-    background: url("./images/espresso.jpeg");
+    /* background: url("./images/espresso.jpeg"); */
     height: 100%;
 
     background-size: cover;
@@ -145,4 +145,16 @@ width: 500px;
 
 .homeDiv{
   width: 100%;
+}
+
+.bgImage{
+  background: url(/espresso.jpeg);
+}
+
+.trying{
+  position: absolute;
+}
+
+.trying1{
+  position: absolute;
 }

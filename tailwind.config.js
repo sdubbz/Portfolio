@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "spro": "url('/images/espresso.jpeg')",
+        'spro': "url('~/images/pinball.jpeg')",
 
        },
       colors:{
