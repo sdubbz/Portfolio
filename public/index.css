@@ -577,6 +577,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-style: solid;
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .bg-theme {
   --tw-bg-opacity: 1;
   background-color: rgb(63 63 255 / var(--tw-bg-opacity));
@@ -625,6 +630,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -651,17 +660,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-transparent {
   color: transparent;
-}
-
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-violet-500 {
-  --tw-shadow-color: #8b5cf6;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .transition {
@@ -797,8 +795,8 @@ canvas {
 }
 
 .homeAbout{
-  margin-left: 700px;
-  margin-top: 250px;
+  margin-left: 40%;
+  margin-top: 50%;
   /* color:white; */
   width: 500px;
   bottom: 20px;
@@ -807,19 +805,15 @@ canvas {
   /* color: white; */
   padding-left: 20px;
   padding-right: 20px;
-  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .homeDiv{
   width: 100%;
 }
 
-.bgImage{
-  background: url(/espresso.jpeg);
-}
-
 .trying{
-  position: absolute;
+  margin-top: 10%;
 }
 
 .trying1{
@@ -829,11 +823,6 @@ canvas {
 .hover\:border-black:hover {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.focus\:border-white:focus {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 @media (min-width: 768px) {
@@ -852,15 +841,15 @@ canvas {
 }
 
 @media (min-width: 1024px) {
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:px-64 {
-    padding-left: 16rem;
-    padding-right: 16rem;
+  .xl\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
