@@ -30,10 +30,12 @@ if(!isLoading){
   return(
     <div className='bottom'>
     {projects.map((project) => {
-      return (<div key={project.id} >
+      return (<div  key={project.id} >
         <div>{project.name}</div>
-        <img className='project-image' src={project.imageUrl[0]}/>
-        <img className='project-image' src={project.imageUrl[1]}/>
+        <picture class="flex">
+          <img className='project-image' src={project.imageUrl[0]}/>
+          <img className='project-image' src={project.imageUrl[1]}/>
+          </picture>
         <p>{project.description}</p>
          </div>
          )
