@@ -16,11 +16,13 @@ export const Home = () => {
 
     <div class="layout">
       <Nav />
-      {/* <HomeAbout class="h-full w-full"/> */}
+      <HomeAbout class="flex"/>
+
     </div>
-     <div class="layout  w-full  ">
+
+     {/* <div class="  absolute flex w-full  ">
     <HomeAbout class=" w-full pt-6 "/>
-    </div>
+    </div> */}
   </div>
 
     //  <div className="w-full h-full spro">

@@ -57,6 +57,7 @@ a:link{
   background: rgba(204, 204, 204, 0);
   display:flex;
   align-items: center;
+  flex-direction: column;
 }
 canvas {
   position:absolute;
@@ -129,23 +130,30 @@ width: 100%;
 
 .homeAbout{
   margin-left: 40%;
-  margin-top: 50%;
+  margin-top: 40%;
+  margin-right:5%;
   /* color:white; */
+  display:flex;
 
-width: 500px;
   bottom: 20px;
   right: 20px;
   /* background-color: black; */
   /* color: white; */
   padding-left: 20px;
   padding-right: 20px;
-
+  color: white;
   background: rgba(0, 0, 0, 0.5);
+  position:fixed;
 
 }
 
 .homeDiv{
   width: 100%;
+}
+
+.landingHover {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 

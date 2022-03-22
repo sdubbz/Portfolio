@@ -6,7 +6,7 @@ export const HomeAbout = () => {
 
   return(
     // <h3 className='homeAbout'>Hello my name is Scott Wilson, welcome to my  portfolio website. If you havn't guessed yet, I was a carreer bartender before transition so software engineering. Take a look around at my projects section, or learn more about me in the Scott'sTales section, maybe grab a cocktail while your at it. </h3>
-    <h1 class="  homeAbout">
+    <h1 class="flex border-solid hover:border-dotted border-4 homeAbout mx-auto items-center">
     Hello my name is Scott Wilson, welcome to my  portfolio website. If you havn't guessed yet, I was a carreer bartender before transition so software engineering. Take a look around at my projects section, or learn more about me in the Scott'sTales section, maybe grab a cocktail while your at it
    </h1>
   // <h1>
