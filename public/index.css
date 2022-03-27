@@ -577,6 +577,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 4px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -821,8 +825,9 @@ canvas {
 }
 
 .landingHover {
-  --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .trying{
@@ -840,6 +845,11 @@ canvas {
 .hover\:border-black:hover {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.focus\:border-violet-600:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(124 58 237 / var(--tw-border-opacity));
 }
 
 @media (min-width: 768px) {

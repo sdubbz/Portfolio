@@ -21,7 +21,7 @@ export const Nav = () => {
           <Link class="text-blue-500" to="/">Home</Link>
           <a class="text-blue-500" href="/projects">Projects</a>
           {/* <a class="text-blue-500" href="">Blogs</a> */}
-          <a class="text-blue-500" href="">Our Team</a>
+          <a class="text-blue-500" href="">About Me</a>
           <a class="text-blue-500" href="">Contact Us</a>
           <button class="px-6 py-2 bg-theme text-white font-bold" onClick={() => contact()}>Hire me</button>
         </div>
