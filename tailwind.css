@@ -130,7 +130,7 @@ width: 100%;
 
 .homeAbout{
   margin-left: 40%;
-  margin-top: 40%;
+  margin-top: 30%;
   margin-right:5%;
   /* color:white; */
   display:flex;
@@ -143,7 +143,9 @@ width: 100%;
   padding-right: 20px;
   color: white;
   background: rgba(0, 0, 0, 0.5);
-  position:fixed;
+  /* position:fixed; */
+  position: relative;
+  /* flex-grow: 3; */
 
 }
 
@@ -170,4 +172,13 @@ width: 100%;
 
 .trying1{
   position: absolute;
+}
+
+.homeContact{
+  margin-top: 150%;
+}
+
+.scott{
+  height:200px;
+  width:150px;
 }

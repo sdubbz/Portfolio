@@ -4,6 +4,7 @@ import HomeAbout from './homeAbout';
  import espresso from '../../public/images/espresso.jpeg';
 
 import HomeContact from "./HomeContact";
+import AboutTest from "./aboutTest";
 
 
 // const espresso = new URL("./images/espresso.jpeg", import.meta.url)
@@ -16,12 +17,16 @@ export const Home = () => {
     <img className="bgPic" src="images/espresso.jpeg" />
 
 
-    <div class="layout">
+    <div class="layout grow-[3]">
       <Nav />
-      <HomeAbout class="flex"/>
+      <HomeAbout class="flex grow-[3]"/>
 
     </div>
-    <HomeContact class=""/>
+    <div class="absolute homeContact">
+
+    {/* <HomeContact class="absolute "/> */}
+    <AboutTest/>
+    </div>
 
 
   </div>

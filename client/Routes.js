@@ -9,6 +9,7 @@ import Email from "./components/Email";
 import BgCanvas from "./components/bgCanvas";
 import HomeAbout from "./components/homeAbout";
 import LandingButton from "./components/landingButton";
+import HomeContact from "./components/HomeContact";
 
 export const App = () => {
   return (
@@ -28,7 +29,10 @@ export const App = () => {
           }
         />
 
-        <Route path="/home" element={<Home class="w-full"/>} />
+        <Route path="/home" element={<div>
+          <Home class="w-full"/>
+          <HomeContact/>
+          </div>} />
         <Route path="/projects" element={<Projects classname="projects" />} />
         <Route path="email" element={<Email />} />
       </Routes>
