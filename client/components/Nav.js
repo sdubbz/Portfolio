@@ -12,14 +12,14 @@ export const Nav = () => {
   }
 
   return (
-    <div class="text-blue-500 w-full">
-      <nav class="container flex justify-around py-8 mx-auto items-center px-8 md:px-14 lg:px-14 w-full xl:px-8 text-black">
+    <div class="text-black w-full">
+      <nav class="container flex justify-around py-8 mx-auto items-center px-8 md:px-14 lg:px-14 w-full xl:px-8 ">
         <div>
-          <h3 class="text-4xl font-bold text-blue-500">Dubbs Designs</h3>
+          <h3 class="text-4xl font-bold">Dubbs Designs</h3>
         </div>
-        <div class=" hidden md:flex space-x-12 items-center text-blue-500 a:link">
-          <Link class="text-blue-500" to="/">Home</Link>
-          <a class="text-blue-500" href="/projects">Projects</a>
+        <div class=" hidden md:flex space-x-12 items-center  a:link">
+          <Link class="" to="/">Home</Link>
+          <a class="" href="/projects">Projects</a>
           {/* <a class="text-blue-500" href="">Blogs</a> */}
           <a class="text-blue-500" href="">About Me</a>
           <a class="text-blue-500" href="">Contact Us</a>
