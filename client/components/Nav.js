@@ -12,7 +12,7 @@ export const Nav = () => {
   }
 
   return (
-    <div class="text-black w-full">
+    <div class="text-grey w-full">
       <nav class="container flex justify-around py-8 mx-auto items-center px-8 md:px-14 lg:px-14 w-full xl:px-8 ">
         <div>
           <h3 class="text-4xl font-bold">Dubbs Designs</h3>
@@ -21,8 +21,8 @@ export const Nav = () => {
           <Link class="" to="/">Home</Link>
           <a class="" href="/projects">Projects</a>
           {/* <a class="text-blue-500" href="">Blogs</a> */}
-          <a class="text-blue-500" href="">About Me</a>
-          <a class="text-blue-500" href="">Contact Us</a>
+          <a class="" href="">About Me</a>
+          <a class="" href="">Contact Us</a>
           <button class="px-6 py-2 bg-theme text-white font-bold" onClick={() => contact()}>Hire me</button>
         </div>
         <div class="md:hidden">
