@@ -11,14 +11,18 @@ export const Nav = () => {
     navigate('/email')
   }
 
+  const landing = () => {
+    navigate('/')
+  }
+
   return (
     <div class="text-grey w-full">
       <nav class="container flex justify-around py-8 mx-auto items-center px-8 md:px-14 lg:px-14 w-full xl:px-8 ">
         <div>
-          <h3 class="text-4xl font-bold">Dubbs Designs</h3>
+          <h3 class="text-4xl font-bold" onClick={() => landing()}>Dubbs Designs</h3>
         </div>
         <div class=" hidden md:flex space-x-12 items-center  a:link">
-          <Link class="" to="/">Home</Link>
+          <Link class="" to="/home">Home</Link>
           <a class="" href="/projects">Projects</a>
           {/* <a class="text-blue-500" href="">Blogs</a> */}
           <a class="" href="">About Me</a>
