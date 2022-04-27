@@ -16,7 +16,7 @@ export const Nav = () => {
   }
 
   return (
-    <div class="text-blue w-full">
+    <div class="text-black w-full">
       <nav class="container flex justify-around py-8 mx-auto items-center px-8 md:px-14 lg:px-14 w-full xl:px-8 ">
         <div>
           <h3 class="text-4xl font-bold" onClick={() => landing()}>Dubbs Designs</h3>
