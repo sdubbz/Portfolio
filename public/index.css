@@ -951,10 +951,10 @@ canvas {
   width:150px;
 }
 
-/* .thumbnail:hover {
+.thumbnail:hover {
   position:relative;
   height:500px;
-} */
+}
 
 .hover\:border-dotted:hover {
   border-style: dotted;
