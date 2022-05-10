@@ -758,6 +758,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -765,11 +770,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-transparent {
   color: transparent;
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .transition {
@@ -950,6 +950,11 @@ canvas {
   height:200px;
   width:150px;
 }
+
+/* .thumbnail:hover {
+  position:relative;
+  height:500px;
+} */
 
 .hover\:border-dotted:hover {
   border-style: dotted;
