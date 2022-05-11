@@ -33,7 +33,7 @@ if(!isLoading){
       return (<div  key={project.id} >
         <div>{project.name}</div>
         <picture class="flex">
-          <img className='project-image'   src={project.imageUrl[0]}/>
+          <img className='project-image'  src={project.imageUrl[0]}/>
           <img className='project-image' src={project.imageUrl[1]}/>
           </picture>
         <p>{project.description}</p>
