@@ -19,7 +19,7 @@ export const Home = () => {
 
     <div class="layout grow-[3]">
       <Nav />
-      <HomeAbout class="flex grow-[3]"/>
+      <HomeAbout class="flex grow-[3] hover:place-content-center"/>
 
     </div>
     <div class="absolute homeContact">
