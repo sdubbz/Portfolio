@@ -25,7 +25,7 @@ export const Home = () => {
     <div class="absolute homeContact">
 
     {/* <HomeContact class="absolute "/> */}
-    {/* <AboutTest/> */}
+    <AboutTest/>
     </div>
 
 
