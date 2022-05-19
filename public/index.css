@@ -958,7 +958,7 @@ canvas {
 }
 
 .project-image:hover{
-  /* transform: scale(1.5); */
+  transform: scale(1.5);
 }
 
 .hover\:scale-150:hover {
