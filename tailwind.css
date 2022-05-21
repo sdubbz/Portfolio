@@ -191,7 +191,7 @@ width: 100%;
 }
 
 .project-image:hover{
-/* transform: scale(1.5); */
+transform: scale(1.5);
 
 
 }
