@@ -9,7 +9,7 @@ export const HomeAbout = () => {
     <div class="flex border-solid hover:scale-150 border-4 homeAbout mx-auto items-center justify-evenly grow-[3] hover:place-content-center ">
     <img class="scott hover:place-content-center" src="/images/scott.jpeg"></img>
     <p class="text-xl  hover:place-content-center" >
-    Hello my name is Scott Wilson, welcome to my  portfolio website. If you havn't guessed yet, I was a carreer bartender before transition so software engineering. Take a look around at my projects section, or learn more about me in the Scott'sTales section, maybe grab a cocktail while your at it
+    Hello my name is Scott Wilson, welcome to my  portfolio website. If you havn't guessed yet, I was a carreer bartender before transition so software engineering. Take a look around at my projects section, or learn more about me in the Scott'sTales section, maybe grab a cocktail while your at it?
    </p>
    </div>
   // <h1>
