@@ -907,7 +907,8 @@ canvas {
 }
 
 .homeAbout{
-  margin-left: 40%;
+  text-align: center;
+  margin-left:40%;
   margin-top: 30%;
   margin-right:5%;
   /* color:white;
